@@ -1,0 +1,769 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #f2f7ff !important;
+}
+
+a.button,
+.nf-form-content button,
+.nf-form-content input[type="button"],
+.nf-form-content input[type="submit"] {
+  background-color: #8c30f5 !important;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 20px;
+  text-transform: uppercase;
+  white-space: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+a.button:focus,
+a.button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+.nf-form-content button,
+.nf-form-content input[type="button"],
+.nf-form-content input[type="submit"] {
+  background-color: #95dfe7 !important;
+}
+
+a.button:focus,
+a:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+:focus {
+  border: 5px solid #8c30f5 !important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left li {
+  list-style-type: disc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 25px 0;
+  font-weight: 900;
+  color: black !important;
+}
+
+h2 {
+  font-size: 7.5rem;
+}
+
+h3 {
+  font-size: 4.5rem;
+}
+
+p,
+ul {
+  line-height: 2;
+  padding: 0 20px;
+}
+
+.white-bg {
+  background-color: white !important;
+}
+
+.site-inner a {
+  color: #8c30f5 !important;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0 50px;
+  }
+  ul {
+    padding: 0 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  p,
+  ul {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0 15px;
+  }
+
+  ul {
+    padding: 0 0 0 40px;
+  }
+
+}
+/* SITE HEADER */
+.site-header {
+  background-color: #ffff;
+  height: 100px;
+  position: fixed;
+}
+
+.site-header .widget-area,
+.site-header .widget-area a,
+.site-header .widget-area h4 {
+  color: black;
+}
+
+.header-image .site-title > a {
+  height: 175px;
+}
+
+.title-area {
+  max-width: 100px !important;
+  width: 100px !important;
+}
+
+.site-header > .wrap {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title a,
+.site-title a:hover,
+.site-title a:focus {
+  color: #7f3e98 !important;
+  font-size: 2.5rem;
+}
+
+/* MENU */
+ul#menu-main-menu.genesis-nav-menu {
+  padding: 0 !important;
+}
+
+.genesis-nav-menu a {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.genesis-nav-menu > .menu-item > a {
+  text-transform: none;
+  text-align: center;
+}
+
+.genesis-nav-menu .menu-item {
+  width: auto;
+  margin: 0 20px;
+}
+.menu-toggle,
+.sub-menu-toggle {
+  color: black;
+}
+
+#gtranslate-3 {
+  width: 20%;
+}
+
+#gtranslate_selector {
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+.site-header .widget-area.header-widget-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 75%;
+}
+
+.site-header .sub-menu {
+  background-color: #f2f7ff;
+}
+
+.genesis-nav-menu .sub-menu a {
+  color: #8c30f5;
+}
+
+.site-title {
+  padding: 0;
+}
+
+/* Sticky donation button */
+
+.buttonizer-button.buttonizer-button-0-0-3 {
+	border-radius: 1rem !important;
+	width: 75px !important;
+}
+
+.buttonizer-label.buttonizer-label-0-0-6 {
+	border-radius: 1rem !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .site-title {
+    text-align: center;
+    display: block;
+    width: 100px;
+    position: relative;
+    right: 65px;
+  }
+
+  .site-header .widget-area {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .genesis-nav-menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-image .site-title > a {
+    background-size: 70% !important;
+    display: block;
+    height: 130px;
+    text-indent: -9999px;
+    max-width: 100%;
+    width: 100%;
+    background-position: center !important;
+  }
+  #gtranslate-3 {
+    width: 100%;
+  }
+  #gtranslate_selector {
+    font-size: 1.5rem;
+    padding: 8px;
+    width: unset;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .genesis-responsive-menu .genesis-nav-menu .menu-item {
+    display: block;
+    float: none;
+    position: relative;
+    text-align: center;
+    margin: 0;
+  }
+
+  .genesis-responsive-menu .genesis-nav-menu .menu-item a {
+    padding: 10px;
+  }
+
+  .header-image .site-title > a {
+    background-position: center !important;
+    margin: 10px auto;
+  }
+  .header-image .site-title > a {
+    background-size: 27% !important;
+    display: block;
+    height: 100px;
+    text-indent: -9999px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #genesis-mobile-nav-header {
+    font-size: 2rem;
+    top: 1rem;
+  }
+
+  #gtranslate_selector {
+    padding: 5px;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  #gtranslate-3 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .site-header {
+    height: 170px;
+  }
+
+  .site-header > .wrap {
+    height: 120px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .site-header .widget-area.header-widget-area {
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: 50px;
+    position: relative;
+    top: 0;
+  }
+
+  .title-area {
+    padding: 0;
+  }
+
+  .site-title {
+    text-align: center;
+    display: block;
+    width: 100px;
+    position: relative;
+    right: 0;
+    padding: 0 !important;
+  }
+
+  .logo-bg {
+    background-size: 80%;
+    background-position: bottom;
+  }
+
+  #nav_menu-3 {
+    margin: 0;
+    width: 75%;
+  }
+
+  #genesis-mobile-nav-header {
+    font-size: 2rem;
+    top: -1rem;
+    position: absolute;
+  }
+
+  nav.genesis-responsive-menu {
+    position: relative;
+    bottom: 0;
+    top: 0;
+  }
+
+  .genesis-nav-menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0;
+    left: -6rem;
+    top: 6.3rem;
+  }
+
+  .genesis-nav-menu a {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+  #gtranslate_selector {
+    padding: 5px;
+    width: 85%;
+    font-size: 1.5rem;
+  }
+
+  #gtranslate-3 {
+    width: 90%;
+    position: relative;
+    top: 6rem;
+  }
+
+
+  .home-section-1 .wrap {
+    padding: 0 !important;
+  }
+
+  .wp-image-32 {
+    width: 100vw;
+    bottom: 87px;
+    position: relative;
+  }
+}
+
+/* HERO SECTION */
+
+#logo {
+  width: 35%;
+}
+
+.remove-logo {
+  background: none !important;
+  color: #7f3e98 !important;
+  font-size: 2.5rem;
+}
+
+.logo-bg {
+  color: transparent !important;
+  font-size: 2.5rem;
+  background: url(https://unitysisters.local/wp-content/uploads/2021/03/unity_sis_logo.svg);
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1980px) {
+  #hero-section {
+    background-size: 112%;
+    background-position: 58% 40%;
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/home-1-desktop-2.svg);
+  }
+}
+/* 1440px x 900px */
+
+@media only screen and (max-width: 1440px) {
+  #hero-section {
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/home-1-desktop-2.svg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+  }
+}
+
+/* 1280px x 800px */
+
+@media only screen and (max-width: 1280px) {
+  #hero-section {
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/home-1-desktop-2.svg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: 52% 62%;
+  }
+}
+
+#call-action {
+  position: relative;
+  bottom: 8rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#call-action .button {
+  margin: 0 10px;
+}
+
+.home-section-1,
+.home-section-2,
+.home-section-3,
+.home-section-4,
+.home-section-5,
+.home-section-6 {
+  background-attachment: fixed;
+  background-color: transparent;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1180px) {
+  #hero-section {
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/home-1-tablet-2.svg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 52% 150%;
+  }
+
+  #logo {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-odd.home-section-1.widget-area {
+    height: 100vh;
+    padding: 0;
+  }
+
+  .home-section-1 .wrap {
+    padding: 0 !important;
+  }
+
+  .wp-image-32 {
+    width: 100vw;
+    bottom: 0;
+    position: relative;
+  }
+
+  #media_image-3 {
+    bottom: 35vh;
+    position: absolute;
+    left: 5vw;
+  }
+
+  #hero-section {
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/home-1-1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 38%;
+    margin: 5rem 0;
+    overflow: visible;
+  }
+
+  #logo {
+    width: 70%;
+  }
+}
+
+/* ABOUT SECTION */
+
+.home-section-2 {
+  background-color: white;
+}
+
+#about-section {
+  background-size: 38%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-image: url(//unitysisters.local/wp-content/uploads/2021/03/about-mobile.svg);
+  height: 76px;
+  padding: 14rem 3rem;
+  text-align: left;
+  width: 180%;
+}
+#about-section h2 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    margin: 0 2rem !important;
+  }
+
+  #about-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(//unitysisters.local/wp-content/uploads/2021/03/about-mobile.svg);
+    height: 50px;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  #about-section h2 {
+    bottom: 3rem;
+  }
+}
+
+/* PROJECTS  */
+
+#projects-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.purple-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: rgba(214, 177, 255, 0.5);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  text-align: left;
+  padding: 2rem;
+  margin: 5rem 0;
+  color: black;
+}
+
+.orange-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #f8d3b50d;
+  background: rgba(248, 211, 181, 0.5);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  text-align: left;
+  padding: 2rem;
+  margin: 5rem 0;
+  color: black;
+}
+
+.teal-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: rgba(117, 227, 234, 0.5);
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  text-align: left;
+  padding: 2rem;
+  margin: 5rem 0;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects-section h2.text-right {
+    text-align: center;
+  }
+}
+/* SUPORT US  */
+
+#support-section {
+  margin: 5rem 0;
+}
+
+#support-section h3 {
+  font-size: 6rem;
+}
+
+#donate-bg {
+  background: url(http://unitysisters.local/wp-content/uploads/2021/03/donate-bg.svg);
+  height: 300px;
+  width: 100%;
+  padding: 15rem 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#volunteer-bg {
+  background: url(http://unitysisters.local/wp-content/uploads/2021/03/volunteer-bg.svg);
+  height: 300px;
+  width: 100%;
+  padding: 10rem 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#support-section h2.text-center,
+#support-section h3 {
+  margin: 0;
+}
+
+#support-section ul.text-left {
+  padding: 0 0 0 85px;
+}
+
+/* DONATION FORM */
+#give-form-192-1 .seperator {
+  width: 80% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #donate-bg {
+    background-position: bottom;
+    height: 60px;
+    width: 100%;
+    padding: 7rem 1rem;
+    background-size: cover;
+  }
+
+  #support-section ul.text-left {
+    padding: 0 0 0 60px;
+  }
+
+  #volunteer-bg {
+    height: 60px;
+    width: 100%;
+    padding: 8rem 1rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #support-section h3 {
+    font-size: 4rem;
+  }
+}
+
+/* NEWS & EVENTS  */
+
+/* Heading */
+#custom_html-13 {
+  margin: 0;
+}
+/* Slider */
+div#n2-ss-2 .n2-ss-slider-pane {
+  margin: 0 !important;
+}
+
+.n2-ss-slide:nth-child(3n + 1) .blog-title-border {
+  border-radius: 4px;
+  border-bottom: 5px solid #75e3ea;
+  text-shadow: 1px 1px 3px RGBA(117, 227, 234,1);
+}
+
+.n2-ss-slide:nth-child(3n + 2) .blog-title-border {
+  border-radius: 4px;
+  border-bottom: 5px solid #fcb040;
+  text-shadow: 1px 1px 3px RGBA(252, 176, 64,1);
+
+}
+
+.n2-ss-slide:nth-child(3n + 3) .blog-title-border {
+  border-radius: 4px;
+  border-bottom: 5px solid #d6b1ff;
+  text-shadow: 1px 1px 3px RGBA(214, 177, 255,1);
+
+}
+
+/* CONTACT */
+
+#contact-section {
+  background: white;
+  color: black;
+}
+
+.nf-form-content .list-select-wrap .nf-field-element > div,
+.nf-form-content input:not([type="button"]),
+.nf-form-content textarea {
+  background: #8c30f5 !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.nf-form-content button,
+.nf-form-content input[type="button"],
+.nf-form-content input[type="submit"] {
+  background: #8c30f5 !important;
+  color: #f7f7f7;
+}
+
+.nf-form-content button:hover, .nf-form-content input[type="button"]:hover, .nf-form-content input[type="submit"]:hover {
+	background: #95dfe7 !important;
+	color: black !important;
+}
+
+@media only screen and (max-width:600px){
+
+  /* CONTACT HEADING */
+  #ninja_forms_widget-3 .widgettitle.widget-title {
+    font-size: 5rem ;
+  }
+}
